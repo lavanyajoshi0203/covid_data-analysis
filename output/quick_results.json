@@ -1,0 +1,10 @@
+{
+  "countries": 187,
+  "date_range": "2020-01-22 00:00:00 to 2020-07-27 00:00:00",
+  "total_cases": 16480485,
+  "total_deaths": 654036,
+  "peak_cases": 282756,
+  "peak_deaths": 9966,
+  "model_r2": -1.4165253450752755,
+  "forecast_avg": 190981.0229879846
+}

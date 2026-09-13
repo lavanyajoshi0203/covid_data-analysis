@@ -1,0 +1,104 @@
+{
+  "analysis_info": {
+    "countries_analyzed": 187,
+    "date_range": "2020-01-22 00:00:00 to 2020-07-27 00:00:00",
+    "total_records": 49068,
+    "analysis_date": "2026-05-09 16:08:03"
+  },
+  "global_statistics": {
+    "total_cases": 16480485,
+    "total_deaths": 654036,
+    "peak_daily_cases": 282756,
+    "peak_daily_deaths": 9966,
+    "case_fatality_rate": 3.97
+  },
+  "top_countries": [
+    {
+      "country": "US",
+      "total_cases": 4290259,
+      "total_deaths": 148011,
+      "case_fatality_rate": 3.45
+    },
+    {
+      "country": "Brazil",
+      "total_cases": 2442375,
+      "total_deaths": 87618,
+      "case_fatality_rate": 3.59
+    },
+    {
+      "country": "India",
+      "total_cases": 1480073,
+      "total_deaths": 33408,
+      "case_fatality_rate": 2.26
+    },
+    {
+      "country": "Russia",
+      "total_cases": 816680,
+      "total_deaths": 13334,
+      "case_fatality_rate": 1.63
+    },
+    {
+      "country": "South Africa",
+      "total_cases": 452529,
+      "total_deaths": 7067,
+      "case_fatality_rate": 1.56
+    },
+    {
+      "country": "Mexico",
+      "total_cases": 395489,
+      "total_deaths": 44022,
+      "case_fatality_rate": 11.13
+    },
+    {
+      "country": "Peru",
+      "total_cases": 389717,
+      "total_deaths": 18418,
+      "case_fatality_rate": 4.73
+    },
+    {
+      "country": "Chile",
+      "total_cases": 347923,
+      "total_deaths": 9187,
+      "case_fatality_rate": 2.64
+    },
+    {
+      "country": "United Kingdom",
+      "total_cases": 300111,
+      "total_deaths": 45759,
+      "case_fatality_rate": 15.25
+    },
+    {
+      "country": "Iran",
+      "total_cases": 293606,
+      "total_deaths": 15912,
+      "case_fatality_rate": 5.42
+    }
+  ],
+  "model_performance": {
+    "model_type": "Linear Regression",
+    "r_squared": -1.4165,
+    "rmse": 58159.83,
+    "mae": 51049.51,
+    "train_samples": 150,
+    "test_samples": 38
+  },
+  "forecast": {
+    "forecast_days": 30,
+    "average_daily_forecast": 190981.0,
+    "min_forecast": 175876,
+    "max_forecast": 206085,
+    "forecast_trend": "increasing"
+  },
+  "files_created": {
+    "plots": [
+      "quick_analysis.png",
+      "top_countries.png",
+      "forecast.png"
+    ],
+    "data": [
+      "quick_results.json"
+    ],
+    "plot_directory": "plots",
+    "output_directory": "output"
+  }
+}
